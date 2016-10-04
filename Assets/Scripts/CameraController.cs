@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraController : MonoBehaviour {
 
 	private GameObject player;
-	private GameObject camera;
+	private GameObject mainCamera;
 
 	//カメラの移動制限範囲をステージごとに指定
 	public float maxX = 20.0f;
@@ -15,13 +15,13 @@ public class CameraController : MonoBehaviour {
 
 	void Start () {
 		player = GameObject.Find ("Player");
-		camera = GameObject.Find ("Main Camera");
+		mainCamera = GameObject.Find ("Main Camera");
 	}
 	
 
 	void Update () {
 		//カメラのY軸は-10で固定（Vector3）してプレイヤーを追従
-		camera.transform.position = new Vector3 (Mathf.Clamp (player.transform.position.x, minX , maxX),Mathf.Clamp ( player.transform.position.y, minY, maxY),-10);
+		mainCamera.transform.position = new Vector3 (Mathf.Clamp (player.transform.position.x, minX , maxX),Mathf.Clamp ( player.transform.position.y, minY, maxY),-10);
 
 	}
 
