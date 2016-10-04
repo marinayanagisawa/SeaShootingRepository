@@ -1,0 +1,97 @@
+fileFormatVersion: 2
+guid: 1c86944e4ec7525489dc663fccd9d26b
+timeCreated: 1475509729
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anemoanim_0
+    21300002: anemoanim_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: anemoanim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.92703915, y: 0.46559402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.330505, y: 20.201982}
+        - {x: -59.330505, y: -7.7980175}
+        - {x: -56.330505, y: -9.7980175}
+        - {x: -48.330505, y: -14.7980175}
+        - {x: -8.330505, y: -14.7980175}
+        - {x: 2.6694946, y: -1.7980175}
+        - {x: 2.6694946, y: 6.2019825}
+        - {x: -11.330505, y: 20.201982}
+    - name: anemoanim_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.95739746, y: 0.46357015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.273438, y: 20.33151}
+        - {x: -58.273438, y: 19.33151}
+        - {x: -58.273438, y: -4.6684895}
+        - {x: -47.273438, y: -14.668489}
+        - {x: -8.2734375, y: -14.668489}
+        - {x: 2.7265625, y: -2.6684895}
+        - {x: 2.7265625, y: 9.331511}
+        - {x: -5.2734375, y: 20.33151}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
