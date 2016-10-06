@@ -114,9 +114,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 29.87, y: 1.96}
+  m_Offset: {x: 10.94, y: 1.96}
   serializedVersion: 2
-  m_Size: {x: 1, y: 12.38}
+  m_Size: {x: 1, y: 19.7}
 --- !u!61 &351212275
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -128,9 +128,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -23.35, y: 1.87}
+  m_Offset: {x: -4.78, y: 1.87}
   serializedVersion: 2
-  m_Size: {x: 1, y: 12.38}
+  m_Size: {x: 1, y: 22.27}
 --- !u!61 &351212276
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,9 +142,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 3.344101, y: -2.5}
+  m_Offset: {x: 3.344101, y: -6.29}
   serializedVersion: 2
-  m_Size: {x: 52.760796, y: 1}
+  m_Size: {x: 100, y: 1}
 --- !u!4 &351212277
 Transform:
   m_ObjectHideFlags: 0
@@ -168,6 +168,7 @@ GameObject:
   - 33: {fileID: 592701161}
   - 64: {fileID: 592701160}
   - 23: {fileID: 592701159}
+  - 114: {fileID: 592701163}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -185,7 +186,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: dc79fed191fb391489c536006c98335e, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -227,11 +228,23 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 592701158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15404424, y: 0.18316732, z: 0.89}
-  m_LocalScale: {x: 54.88, y: 10.6, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 18, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &592701163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 592701158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0eddca1ac41bb04cb3a0eb65810c9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.05
 --- !u!1 &1058780059
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,15 +338,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1058780059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b29c91f14c87cb40a56b99611fef8bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxX: 20
-  minX: -20
-  maxY: 1
-  minY: -1
+  maxX: 45
+  minX: -45
+  maxY: 2
+  minY: -2
 --- !u!1 &1452245937
 GameObject:
   m_ObjectHideFlags: 0
